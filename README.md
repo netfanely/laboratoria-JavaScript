@@ -1,2 +1,21 @@
 # laboratoria-JavaScript
 pre-proyecto de laboratoria, 
+
+#EJERCICIO1: Escribe una función con el nombre coinConverter que convierte el valor de dólares a soles peruanos, pesos mexicano y pesos chilenos.
+
+Utiliza las tasas de cambio siguientes:
+
+soles = dólares * 3.25
+pesosMexicanos = dólares * 18
+pesosChilenos = dólares * 660
+
+Ejemplo:
+
+function coinConvert(dollar = 50) {
+  soles = dollar * 3.25;
+  pesosMexicanos = dollar * 18;
+  pesosChilenos = dollar * 660;
+  console.log(soles, pesosMexicanos, pesosChilenos); // --> [162.5, 900, 33000]
+}
+
+¡Mucha suerte!
